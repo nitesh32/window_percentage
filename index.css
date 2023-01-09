@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    min-width: 400px;
+    margin-top: 10px;
+}
+#di{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#ind{
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: green 0px 9px 38px, green 0px 2px 12px;
+    position: fixed;
+    height: 30px;
+    width: 200px;
+    top:10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: green;
+}
